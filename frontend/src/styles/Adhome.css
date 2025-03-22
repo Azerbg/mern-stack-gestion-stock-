@@ -1,0 +1,219 @@
+.sideAD {
+  width: 250px;
+  height: 635px;
+  background-color: #222224;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.sideAD-title {
+  font-size: 24px;
+  font-weight: bold;   
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.sideAD-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sideAD-link {
+  display: block;
+  margin: 0;
+  padding: 25px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.sideAD-link:hover {
+  background-color: #0180ff;
+  color: white;
+}
+
+.logout-link {
+  text-decoration: underline;
+}
+.Users-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.Users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 600px;
+  box-sizing: border-box;
+}
+
+.UserCard {
+  width: 200px;
+  height: 170px;
+  border: 3px solid #000000;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #3d3d3d;
+  box-sizing: border-box;
+}
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 200px;
+}
+
+.buttonAR {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 12px;
+  margin-top: -5px;
+  background-color: rgb(255, 0, 0);
+  margin-right: 7px;
+  font-weight: bolder;
+  color: #000000;
+}
+.pendingAd-container {
+  display: flex;
+}
+
+.users-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 600px;
+  box-sizing: border-box;
+}
+
+.user-card {
+  width: 200px;
+  height: 170px;
+  border: 3px solid #000000;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #3d3d3d;
+  box-sizing: border-box;
+}
+
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 200px;
+}
+
+.button-ar {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 12px;
+  margin-top: -5px;
+  background-color: rgb(255, 0, 0);
+  margin-right: 7px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.view-button {
+  background-color: #ffce3b;
+  color: black;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  background: white;
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.user-image {
+  width: 100%;
+}
+
+.modal-actions {
+  margin-top: 10px;
+}
+
+.button-validate {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.button-refuse {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.button-close {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+.Users-content h2 {
+  margin-top: -5px;
+  background-color: #0180ff;
+  width: 90%;
+  color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 40px;
+  padding-top: 20px;
+}

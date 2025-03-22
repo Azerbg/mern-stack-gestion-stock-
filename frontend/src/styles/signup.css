@@ -1,0 +1,142 @@
+.bg {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/img/e3df1bab-9842-4d45-b5c3-4c3be8219b39.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home-containerS {
+    background-color: white;
+    width: 300px;
+    height:420px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.blueS {
+    background-color: rgb(11, 129, 255);
+    width:270px;
+    height:50px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top:-18%;
+    left:-5px;
+}
+.blueS h1{
+    font-size: 40px;
+    position: relative;
+    top:-35px;
+    text-align: center;
+}
+
+.home-containerS h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formula {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -50px;
+}
+
+.formula label {
+    color: #333;
+    font-weight: bold;
+}
+
+.formula input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+
+}
+.bannerS{
+    position: relative;
+    top:5%;
+    left:40px;
+    background-color: #d9d9d9;
+    color: rgb(0, 33, 134);
+    width: 90%;
+    height:50px;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.ggS{
+    color: #005BB5;
+}
+.formula button {
+    background-color: #0B81FF;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formula button:hover {
+    background-color: #005BB5;
+}
+
+.formula p {
+    text-align: center;
+    color: #333;
+}
+
+.formula p a {
+    color: #0B81FF;
+    text-decoration: none;
+}
+
+.formula p a:hover {
+    text-decoration: underline;
+}
+input[type="file"] {
+    width: 80%; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+  }
+  
+  .container {
+    max-width: 100%; 
+    padding: 15px; 
+  }
+  
+  input[type="file"]::-webkit-file-upload-button {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
