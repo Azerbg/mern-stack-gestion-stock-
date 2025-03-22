@@ -1,4 +1,0 @@
-git add path/to/existing/file.js
-git add .
-git commit -m "Fix login page bug"
-git push origin main
